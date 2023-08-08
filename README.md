@@ -20,7 +20,7 @@ Follow these step-by-step instructions for a smooth installation process of the 
 - This action establishes a virtual environment that allows you to proceed with the ROS installation and setup.
 
 ### 3. Running Commands in Terminal on Ubuntu :
-Launch a terminal in Ubuntu (within the virtual machine) and execute the following commands:
+Launch a terminal in Ubuntu and execute the following commands:
 
 3.1 Update and Upgrade Ubuntu:
 ```
@@ -28,13 +28,15 @@ sudo apt update
 sudo apt upgrade
 ```
 3.2 Install ROS Noetic:
-3.2.1 Set up sources and keys for ROS:
+
+
+  3.2.1 Set up sources and keys for ROS:
 ```
 sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
 sudo apt install curl  # Install curl if not already installed
 curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo apt-key add -
 ```
-3.2.2 Install ROS Noetic Desktop Full:
+  3.2.2 Install ROS Noetic Desktop Full:
 ```
 sudo apt update
 sudo apt install ros-noetic-desktop-full
