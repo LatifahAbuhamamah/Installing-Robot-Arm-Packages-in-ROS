@@ -27,8 +27,7 @@ Launch a terminal in Ubuntu and execute the following commands:
 sudo apt update
 sudo apt upgrade
 ```
-3.2 Install ROS Noetic:
-
+3.2 Install ROS Noetic
 
   3.2.1 Set up sources and keys for ROS:
 ```
@@ -93,7 +92,9 @@ source ~/.bashrc
 roslaunch robot_arm_pkg check_motors.launch
 ```
 
-![image1]()
+![image1](https://github.com/LatifahAbuhamamah/Installing-Robot-Arm-Packages-in-ROS/blob/main/Robot%20Arm.jpeg)
+
+
 
 
 
