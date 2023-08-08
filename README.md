@@ -93,7 +93,8 @@ roslaunch robot_arm_pkg check_motors.launch
 ```
 
 ![image1](https://github.com/LatifahAbuhamamah/Installing-Robot-Arm-Packages-in-ROS/blob/main/Robot%20Arm.jpeg)
-![Gif](https://github.com/LatifahAbuhamamah/Installing-Robot-Arm-Packages-in-ROS/blob/main/Robot%20Arm.gif)
+![Robot Arm](https://github.com/LatifahAbuhamamah/Installing-Robot-Arm-Packages-in-ROS/assets/139233344/6ffaa860-01ed-4b85-aea9-d00424fc5dba)
+
 
 
 
